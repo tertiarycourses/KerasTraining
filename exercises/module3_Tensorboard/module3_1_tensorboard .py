@@ -23,7 +23,7 @@ model.compile(loss='mean_squared_error', optimizer='adam')
 
 # Create a TensorBoard logger
 logger = keras.callbacks.TensorBoard(
-    log_dir='logs',
+    log_dir='temp',
     write_graph=True,
 )
 

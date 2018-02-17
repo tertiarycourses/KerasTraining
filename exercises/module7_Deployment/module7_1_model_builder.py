@@ -18,13 +18,14 @@ model.add(Dense(1, activation='linear', name='output_layer'))
 model.compile(loss='mean_squared_error', optimizer='adam')
 
 # Create a TensorBoard logger
-logger = keras.callbacks.TensorBoard(
-    log_dir='logs',
-    write_graph=True
-)
+# logger = keras.callbacks.TensorBoard(
+#     log_dir='logs',
+#     write_graph=True
+# )
 
 # Train the model
-model.fit(X,Y,epochs=50,shuffle=True,verbose=2,callbacks=[logger])
+#model.fit(X,Y,epochs=50,shuffle=True,verbose=2,callbacks=[logger])
+model.fit(X,Y,epochs=50,shuffle=True)
 
 # Load the separate test data set
 test_data_df = pd.read_csv("sales_data_test_scaled.csv")

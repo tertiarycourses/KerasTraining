@@ -33,7 +33,7 @@ x = preprocess_input(x)
 predictions = model.predict(x)
 
 # Look up the names of the predicted classes. Index zero is the results for the first image.
-predicted_classes = decode_predictions(predictions, top=5)
+predicted_classes = decode_predictions(predictions, top=3)
 
 print("This is an image of:")
 

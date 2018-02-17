@@ -5,9 +5,9 @@ from oauth2client.client import GoogleCredentials
 import googleapiclient.discovery
 
 # Change this values to match your project
-PROJECT_ID = "keras-class"
+PROJECT_ID = "keras-183614"
 MODEL_NAME = "earnings"
-CREDENTIALS_FILE = "credentials.json"
+CREDENTIALS_FILE = "credential.json"
 
 # These are the values we want a prediction for
 inputs_for_prediction = [

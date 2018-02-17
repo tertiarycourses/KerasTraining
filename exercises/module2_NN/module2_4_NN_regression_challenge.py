@@ -18,8 +18,8 @@ Y = -X + np.random.randn(len(X))
 
 # Step 2: Define Model
 model = Sequential()
-model.add(Dense(50, input_dim=1, activation='relu'))
-model.add(Dense(100, activation='relu'))
+model.add(Dense(10, input_dim=1, activation='relu'))
+#model.add(Dense(100, activation='relu'))
 model.add(Dense(1, activation='linear'))
 
 # Step 3: Compile Model

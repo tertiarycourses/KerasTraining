@@ -38,15 +38,19 @@ L6 = 32
 model = Sequential()
 model.add(Dense(L1, input_dim=n_features, activation='relu'))
 model.add(Dense(L2, activation='relu'))
-model.add(Dense(L3, activation='relu'))
-model.add(Dense(L4, activation='relu'))
-model.add(Dense(L5, activation='relu'))
-model.add(Dense(L6, activation='relu'))
+# model.add(Dense(L3, activation='relu'))
+# model.add(Dense(L4, activation='relu'))
+# model.add(Dense(L5, activation='relu'))
+# model.add(Dense(L6, activation='relu'))
 model.add(Dense(n_classes, activation='softmax'))
-#print(model.summary())
+# print(model.summary())
 
 # Step 3: Compile Model
 model.compile(optimizer='adam',loss='categorical_crossentropy',metrics=['accuracy'])
+#model.compile(loss=keras.losses.categorical_crossentropy,
+              optimizer=keras.optimizers.SGD(lr=0.01, momentum=0.9),
+              metrics=['accuracy'])
+
 
 # Step 4: Train Model
 model.fit(X_train, y_train, epochs=training_epochs,batch_size=batch_size)

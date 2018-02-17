@@ -12,7 +12,7 @@ import numpy as np
 # Step 1: Preprocess data
 
 # Load the image file, resizing it to 299x299 pixels (required by this model)
-img = image.load_img("../images/car-224.jpg", target_size=(299, 299))
+img = image.load_img("../images/bay-1366.jpg", target_size=(299, 299))
 
 # Convert the image to a numpy array
 x = image.img_to_array(img)
