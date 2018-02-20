@@ -38,7 +38,7 @@ model.compile(loss='categorical_crossentropy',optimizer='adam',metrics=['accurac
 model.fit(X_train,y_train,epochs=2,batch_size=100)
 
 # Step 5: Evaluate the Model
-loss,accuracy = model.evaluate(X_test,y_test,)
+loss,accuracy = model.evaluate(X_test,y_test)
 print("Loss = ",loss)
 print("Accuracy ",accuracy)
 
