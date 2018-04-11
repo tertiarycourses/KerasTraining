@@ -3,7 +3,7 @@
 
 import os
 os.environ['TF_CPP_MIN_LOG_LEVEL']='2'
-os.environ['TF_ENABLE_WINOGRAD_NONE_USED']='1'
+os.environ['TF_ENABLE_WINOGRAD_NONFUSED'] = '1'
 
 from keras.models import load_model
 import numpy as np
