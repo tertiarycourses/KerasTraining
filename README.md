@@ -1,5 +1,5 @@
 # Deep Learning with Keras
-## by [Tertiary Infotech Pte. Ltd](https://www.tertiarycourses.com.sg/)
+## by [Tertiary Courses](https://www.tertiarycourses.com.sg/)
 
 These are the exercise files used for [Deep Learning with Keras](https://www.tertiarycourses.com.sg/deep-learning-with-keras.html) course. 
 
@@ -9,46 +9,31 @@ https://www.tertiarycourses.com.sg/deep-learning-with-keras.html
 
 https://www.tertiarycourses.com.my/deep-learning-with-keras-malaysia.html
 
-<p><strong>Module 1 Getting Started on Keras</strong></p>
+<p><strong>Topic 1 Introduction to Deep Learning</strong></p>
 <ul>
-<li>What is Keras</li>
-<li>Keras vs TensorFlow</li>
-<li>Install and Run Keras</li>
+<li>Machine Learning vs Deep Learning</li>
+<li>Deep Learning Methodology</li>
+<li>Overview of Tensorflow Keras</li>
+<li>Install and Run Tensorflow Keras</li>
+<li>Basic Tensorflow Keras Operations</li>
 </ul>
-<p><strong>Module 2 Neural Networks</strong></p>
+<p><strong>Topic 2 Neural Network for Regression</strong></p>
 <ul>
-<li>What is Neural Network ?</li>
-<li>Basic Concepts of Machine Learning</li>
-<li>Regression Application</li>
-<li>Classification Application</li>
+<li>What is Neural Network (NN)?</li>
+<li>Loss Function and Optimizer</li>
+<li>Build a Neural Network Model for Regression</li>
 </ul>
-<p><strong>Module 3 Visualisation with Tensorboard</strong> </p>
+<p><strong>Topic 3 Neural Network for Classification</strong></p>
 <ul>
-<li>What is Tensorboard</li>
-<li>Keras Callbacks</li>
+<li>One Hot Encoding and SoftMax</li>
+<li>Cross Entropy Loss Function</li>
+<li>Build a Neural Network Model for Classification</li>
 </ul>
-<p><strong>Module 4 Convolutional Neural Network with Keras</strong> </p>
+<p><strong>Topic 4 Recurrent Neural Network (RNN)</strong></p>
 <ul>
-<li>Basics of Convolutional Neural Network (CNN)</li>
-<li>Applications of CNN</li>
-<li>Image Classification with CNN</li>
-</ul>
-<p><strong>Module 5 Transfer Learning with Kears</strong></p>
-<ul>
-<li>What is Transfer Learning</li>
-<li>Pre-Trained Image Recognition Models</li>
-<li>Fine Tuning Pre-Trained Models</li>
-</ul>
-<p><strong>Module 6 Recurrent Neural Network with Keras</strong></p>
-<ul>
-<li>What is Recurrent Neural Network (RNN)</li>
-<li>Applications of RNN</li>
+<li>Introduction to Recurrent Neural Network (RNN)</li>
 <li>LSTM and GRU</li>
-<li>Image Classification with RNN</li>
-</ul>
-<p><strong>Module 7 Deployment</strong></p>
-<ul>
-<li>Deploy model at Google Cloud Platform</li>
-<li>Google Cloud API Services</li>
+<li>Build a RNN Model for Time Series Forecasting</li>
+<li>Build a RNN Model for Sentiment Analysis</li>
 </ul>
 
